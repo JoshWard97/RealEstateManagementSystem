@@ -1,0 +1,326 @@
+body
+{
+    background-color: purple !important;
+    line-height: 1 !important;
+}
+.wrapper
+{
+    background-color:#f1f1f1;
+    margin:0 auto;
+    width:30%;
+    height:600opx;
+    
+    margin-top:10%;
+    overflow: auto;
+}
+
+.wrapperMain
+{
+    background-color:#f1f1f1;
+    margin:0 auto;
+    width:50%;
+    height:575px;
+    margin-top:50px;
+    overflow: hidden;
+}
+.biggerWrap
+{
+    height:800px !important;
+}
+.dataOut
+{
+    overflow: auto;
+    height: 300px;
+    border: 2px solid purple;
+    margin: 5px auto;
+    padding: 5px;
+    width:auto;
+    display: block;
+    bottom: 1px;
+}
+.whiteBG
+{
+    background-color: white;
+}
+input,textarea {
+  font-family: 'Raleway', sans-serif;
+  outline: 0;
+  background: #999999;
+  width: 90%;
+  border: 0;
+    border-radius: 5px;
+  margin:0 auto;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+    display: block;
+    color:purple;
+}
+textarea
+{
+    height: 120px;
+}
+h2,h3,h4, #hStyle
+{
+    color:purple !important;
+    text-align: center !important;
+    font-family: 'Raleway', sans-serif !important;
+    padding-top: 10px !important;
+    font-size: inherit !important;
+    font-weight: bold !important;
+    line-height: 1 !important;
+    margin:0 auto !important;
+    box-sizing: inherit !important;
+}
+.carousel-inner > .item > img {
+  margin: 0 auto !important;
+}
+h3
+{
+    font-size: 1.25em !important;
+}
+#hStyle
+{
+    font-size: 2em !important;
+}
+hr
+{
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid plum;
+    !important;
+    padding: 0 !important; 
+    width:80%;
+    margin: 0 auto !important;
+}
+.button
+{
+  background-color: purple;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  margin:0 auto;
+  cursor: pointer;
+  border-radius: 5px;
+  
+}
+.button:hover
+{
+    background-color: mediumpurple;
+}
+.menuWrap
+{
+    width:80%;
+    margin-top: 0;
+    margin: auto;
+    display: block;
+    background-color: purple;
+    font-family: 'Raleway', sans-serif;
+    border: solid purple 3px;
+    border-radius: 3px;
+}
+.formHolder
+{
+    width:45%;
+    display: block;
+    margin: 0 auto;
+}
+.formHolderSmall
+{
+    width:25%;
+    display: block;
+    margin: 0 auto;
+}
+.menuItem
+{
+    width:20%;
+    background-color: purple;
+    color:white;
+    height:50px;
+    text-align: center;
+vertical-align: middle;
+line-height: 50px;  
+    transition: 0.8s;
+display:inline-block;  
+    cursor: pointer;
+    
+}
+.menuItem:hover
+{
+    background-color: white;
+    color:purple;
+    font-weight: bold;
+}
+.activeItem
+{
+    background-color: white;
+    color:purple;
+    
+}
+.activeItem:hover
+{
+    font-weight: bold;
+}
+.logOut 
+{
+    color:white;
+    font-size:16px;
+    text-align:right;
+    float:right;
+    padding:5px;
+    background:purple;
+    border: solid white 3px;
+    border-radius: 3px;
+    transition: 0.8s;
+    display: block;
+    font-family: 'Raleway', sans-serif;
+}
+.logOut:hover
+{
+    background-color: white;
+    color:purple;
+}
+
+.error
+{
+    color:rebeccapurple;
+    font-size:16px;
+    text-align: center;
+    font-weight: bold;
+
+    animation-name: errorGlow;
+  animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    font-family: 'Raleway', sans-serif;
+}
+@keyframes errorGlow {
+  from {color: red;}
+  to {color: purple;}
+}
+p,a
+{
+    font-family: 'Raleway', sans-serif;
+    color:purple;
+    width:80%;
+    margin:auto;
+    !important;
+}
+.bigger
+{
+height: 500px !important;
+}
+p
+{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    !important;
+}
+table
+{
+    border-collapse:separate;
+    border: 5px solid purple;
+    font-family: 'Raleway', sans-serif;
+    color: purple;
+    margin: 0 auto;
+    text-align: center;
+}
+.trDope
+{
+transition-duration:.8s;
+}
+.trDope:hover
+{
+    background-color: purple;
+    color: white;
+    cursor: pointer;
+}
+a
+{
+text-decoration: none;
+    transition-duration: .8s;
+}
+a:hover
+{
+    color: rebeccapurple;
+    
+}
+.wordButtonContainer
+{
+    display: block;
+    margin: 0 auto;
+    
+    
+}
+.wordButton
+{
+    color:purple;
+    display:block;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+.wordButton:hover
+{
+    font-weight: bold;
+    font:underline;
+    cursor: pointer;
+}
+
+
+.card
+{
+    padding:20px;
+    display: inline-block;
+    height:auto;
+    margin-top: 20px;
+}
+
+.flat
+{
+    height: 0px;
+}
+
+.rightAlign
+{
+    text-align: right;
+}
+.carousel-control.right 
+{
+background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(128,0,128,.8) 100%) !important;
+}
+.carousel-control.left 
+{
+background-image: linear-gradient(to left,rgba(0,0,0,.0001) 0,rgba(128,0,128,.8) 100%) !important;
+}
+
+*, ::after, ::before {
+    box-sizing:inherit !important;
+}
+
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #808; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #404; 
+  border-radius: 3px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #a0a; 
+}
